@@ -1,8 +1,8 @@
-#Suma de dos variables
 
+#Suma de tres variables
 
-num1 = 12
-num2 = 13
-
-suma = num1 + num2
-print (suma)
+x = 25
+y = 35 
+z = 15
+Suma = x + y + z
+print(Suma)
