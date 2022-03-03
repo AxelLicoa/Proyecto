@@ -1,7 +1,6 @@
+#Resta de una sola variable|
 
 
-n = 35
-m = 20
-Resta= n - m
+Resta = 5-9
 
 print(Resta)
