@@ -41,18 +41,54 @@ print('base', base)
 print('altura', altura)
 ```
 
-
 ## Operadores básicos
 
 ### Suma
+Es una de las operaciones matemáticas en la que se necesita de dos o más números para poder efectuarse. Le podemos asignar variables a estos números y sumarlas.
+``` python
+num1 = 12
+num2 = 13
 
+suma = num1 + num2
+print(num1, '+', num2, '=',suma)
+``` 
 ### Resta
+Operación matemática en la que se necesita de dos o más números para poder efectuarse. Le podemos asignar variables a estos números y restarlas.
+``` python
+num1 = 89
+num2 = 20
 
+resta = num1 - num2
+print(num1, '-', num2, '=',resta)
+``` 
 ### Multiplicación
+``` python
+En esta operación el orden de los factores no alera el producto. Le podemos asignar variables a estos números y multiplicarlas.
+multiplicacion = num1 * num2
+print(num1, 'x', num2, '=',multiplicacion)
+Y como el orden de los factores no altera al producto podemos hacerlo de la siguiente forma 
+multiplicacion = num2 * num1
+print(num2, 'x', num1, '=',multiplicacion)
+``` 
 
 ### División
-
+``` python
+Aquí hay que tener mucho cuidado, no podemos dividir para cero así que no podemos darle 0 a una variable y el orden de los factores si altera al producto. Asignaremos variables y procedemos a efectuar la operación.
+num1= 50
+num2= 5
+division = num1 / num2
+print(num1, '/', num2, '=',division)
+```
 ### Módulo
+``` python
+Operador aritmético que nos sirve para poder obtener el residuo de las divisiones.
+num1= 80
+num2= 7
+
+mod = num1 % num2
+print(num1, '%', num2, '=',mod)
+```
+
 
 ## Tipos de datos en Python
 
@@ -63,9 +99,7 @@ print('altura', altura)
 ### String
 
 ## Casting en Python
-
-###Cast
-
+### Cast
 ### List
 
 ### Tuple
