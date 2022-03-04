@@ -3,21 +3,44 @@ Python, es uno de los muchos lenguajes de progrmación que existe. Lo que hace d
 ## ¿Qué es una variable?
 Las variables en python pueden estar representadas normalmente por letras, nombres, pronombres, etc... Es donde guardamos los datos ya sea de tipo, str, int o float.
 ### Nombrando una variable
-  ```Creo una variable de nombre dia
+```python
+  Creo una variable de nombre dia
   dia = "Lunes"
   Imprimo el tipo de variable
   print(type(dia))
-
   dia = 21
   print(dia)
   Para sabe el tipo de variable utilizamos la función type
   print(type(dia))
-
   dia = 21.5
-  print(type(dia))```
+  print(type(dia))
+  ```
 
 
 ### Asignando valores a una variable
+``` python
+Asignaciones en la misma linea
+x=12; y=10; z=4
+print('x', x)
+print('y', y)
+print(z)
+print('x=', x, 'y=', y, 'z=', z)
+Asignación multiple
+dia, mes, anho = "Martes", "Diciembre", 2021
+print(dia,mes,anho)
+print('Hoy es', dia)
+print(', el mes actual es', mes)
+print('y el año es', anho)
+print('Hoy es', dia, ', el mes actual es', mes, 'y el año es', anho)
+Asignación del mismo valor
+var1 = var2= 10
+Asignación de intercambio
+base=10; altura=100
+base, altura = altura, base
+print('base', base)
+print('altura', altura)
+```
+
 
 ## Operadores básicos
 
